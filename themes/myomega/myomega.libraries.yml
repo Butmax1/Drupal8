@@ -1,0 +1,21 @@
+myomega:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for the myomega theme'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the myomega.libraries.yml file.'
+    scss: 
+      style/css/myomega.css: 'style/scss/myomega.scss'
+  version: VERSION
+  js:
+    js/myomega.js: {}
+  css:
+    theme:
+      style/css/myomega.css: {}
+    layout: 
+      #style/css/layout/some-layout-file.css: {}
+    component:
+      #style/css/components/some-component.css: {}
+  dependencies:
+    - core/jquery
+    

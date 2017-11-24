@@ -1,0 +1,83 @@
+<?php
+
+/**
+ * @file
+ * Contains theme level customizations for the myomega theme
+ */
+
+/**
+ * Implements hook_js_alter().
+ */
+function myomega_js_alter(&$javascript, \Drupal\Core\Asset\AttachedAssetsInterface $assets) {
+
+} // END myomega_js_alter
+
+/**
+ * Implements hook_css_alter().
+ */
+function myomega_css_alter(&$css, \Drupal\Core\Asset\AttachedAssetsInterface $assets) {
+  
+} // END myomega_css_alter 
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function myomega_page_attachments_alter (&$attachments) {
+  
+} // END myomega_page_attachments_alter
+
+/**
+ * Implements hook_preprocess().
+ */
+function myomega_preprocess(&$variables, $hook) {
+  
+} // END myomega_preprocess
+
+/**
+ * Implements hook_preprocess_HOOK() for html templates.
+ */
+function myomega_preprocess_html(&$variables) {
+  
+} // END myomega_preprocess_html
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function myomega_preprocess_page(&$variables) {
+  
+} // END myomega_preprocess_page
+
+/**
+ * Implements hook_preprocess_HOOK() for region templates.
+ */
+function myomega_preprocess_region(&$variables) {
+  
+} // END myomega_preprocess_region
+
+/**
+ * Implements hook_preprocess_HOOK() for node templates.
+ */
+function myomega_preprocess_node(&$variables) {
+  
+} // END myomega_preprocess_node
+
+/**
+ * Implements hook_preprocess_HOOK() for block templates.
+ */
+function myomega_preprocess_block(&$variables) {
+  
+} // END myomega_preprocess_block
+
+/**
+ * Implements hook_preprocess_HOOK() for field templates.
+ */
+function myomega_preprocess_field(&$vars) {
+  
+} // END myomega_preprocess_field
+
+/**
+ * Implements hook_html_head_alter()
+ */
+function myomega_html_head_alter(&$head_elements) {
+  
+} // END myomega_html_head_alter

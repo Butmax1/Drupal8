@@ -1,0 +1,16 @@
+{%
+  set classes = [
+    'nodeButmax',
+    compact ? 'compact',
+  ]
+%}
+{% if content %}
+  <dl{{ attributes.addClass(classes) }}>
+    {% for item in content %}
+      <dt class="nodeButmax__link">{{ item.link }}</dt>
+      {% if item.description %}
+        <dd class="nodeButmax__description">{{ item.description }}</dd>
+      {% endif %}
+    {% endfor %}
+  </dl>
+{% endif %}
